@@ -1,0 +1,27 @@
+programa -> inicio comandos fim
+
+comandos -> comando comandos
+comandos -> ε
+
+comando -> declaracao
+comando -> mostrar
+
+declaracao -> inteiro ID = expressao ;
+
+mostrar -> mostrar ( expressao ) ;
+
+expressao -> termo expressao2
+
+expressao2 -> + termo expressao2
+expressao2 -> - termo expressao2
+expressao2 -> ε
+
+termo -> fator termo2
+
+termo2 -> * fator termo2
+termo2 -> / fator termo2
+termo2 -> ε
+
+fator -> NUMERO
+fator -> ID
+fator -> ( expressao )
