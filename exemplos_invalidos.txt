@@ -1,0 +1,7 @@
+inicio
+
+inteiro salario = ;
+
+mostrar(salario)
+
+fim
