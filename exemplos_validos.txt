@@ -1,0 +1,8 @@
+inicio
+
+inteiro salario = 5000;
+inteiro bonus = 1000;
+
+mostrar(salario+bonus);
+
+fim
